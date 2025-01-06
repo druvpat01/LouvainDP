@@ -5,11 +5,11 @@ LouvainDP is a differentially private adaptation of the Louvain method for commu
 ---
 
 ## Key Features
-- Ensures differential privacy with adjustable privacy budget (\( \epsilon \)).
+- Ensures differential privacy with adjustable privacy budget $\epsilon$.
 - Preserves community detection quality despite noise addition.
 
 ---
 
 ## Inputs and Outputs
-- **Input:** Graph \( G \), group size \( k \), privacy budget \( \epsilon \).
-- **Output:** Partition \( C \), representing the graph's noisy communities.
+- **Input:** Graph $G$, group size $k$, privacy budget $\epsilon$.
+- **Output:** Partition $C$, representing the graph's noisy communities.
