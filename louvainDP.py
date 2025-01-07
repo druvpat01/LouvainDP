@@ -9,7 +9,7 @@ class LouvainDP():
         self.num_of_nodes = G.number_of_nodes()
         self.num_of_edges = G.number_of_edges()
         self.epsilon = 0.5 * np.log(self.num_of_nodes)
-        self.epsilon2 = 0.1
+        self.epsilon2 = 0.01
         self.noise_level = 1/self.epsilon2
         self.epsilon1 = self.epsilon - self.epsilon2
         self.alpha = np.exp(-self.epsilon1)
