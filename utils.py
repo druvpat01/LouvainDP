@@ -1,7 +1,7 @@
 import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
-
+import seaborn as sns
 def intro():
     """
     LouvainDP(G,s):
@@ -60,6 +60,12 @@ def cluster_analysis(community, title, k=None, epsilon=None ):
     print("smallest:", min(clusters))
     print("mean cluster size:", round(np.mean(clusters),2))
     print("standard deviation:", round(np.std(clusters),2))
+
+    ## ---------------------------------------Temp---------------------------------------
+    # plt.scatter(clusters, [range(len(clusters))])
+    # sns.kdeplot(clusters)
+    ## ---------------------------------------Temp---------------------------------------
+
 
     plt.hist(clusters)
     plt.title(title)

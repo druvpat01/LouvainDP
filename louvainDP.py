@@ -148,6 +148,12 @@ class LouvainDP():
 
         return dp_communities
 
+
+######----------------------------------- Trial N  Error -----------------------------------
+    def kmeansgrouping(G):
+        return 
+
+######------------------------------------------------------------------------------------------
     def louvain_dp(self,k):
         """
             Finds communities from a noisy graph.
